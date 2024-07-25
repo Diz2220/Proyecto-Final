@@ -1,0 +1,221 @@
+body {
+    font-family: 'Bodoni+Moda+SC';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #28a2b3;
+}
+
+header {
+    background: #b6730e;
+    color: white;
+    padding: 1rem 0;
+    background-image: url(https://i.pinimg.com/564x/3a/77/0b/3a770b63b32e4f4b266b139f537ef346.jpg);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h2{
+    background-image: url(https://i.pinimg.com/564x/b1/50/b1/b150b1053a7f4d2b27b946363f7f8741.jpg);
+    background-size: 23%;
+    color:#ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #45a049;
+    border-radius: 5px;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+input{
+    accent-color: rgb(105, 204, 23);
+}
+.containers {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+body.home {
+    background: url('https://i.pinimg.com/736x/76/c3/64/76c36424a38f92ca094c189386e83af1.jpg') no-repeat center center/cover;
+}
+
+body.services-page {
+    background: url('https://i.pinimg.com/564x/89/62/e5/8962e5706539633594bf71b291af3724.jpg') no-repeat center center/cover;
+}
+
+body.team-page {
+    background: url('https://i.pinimg.com/736x/6d/ac/f3/6dacf38aae211a88bdfa4922a8eea1bc.jpg') no-repeat center center/cover;
+}
+
+body.testimonials-page {
+    background: url('https://i.pinimg.com/736x/6a/6b/29/6a6b29806662e0d61ce2c2fb7c1e0aca.jpg') no-repeat center center/cover;
+}
+
+body.contact-page {
+    background: url('https://i.pinimg.com/564x/5e/44/1c/5e441c06cb9c4f304924293d23b91e14.jpg') no-repeat center center/cover; 
+}
+
+.services {
+    background: transparent;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    border: none; /* Eliminar borde de color */
+    color: white;
+}
+
+.team {
+    background: transparent; /* Fondo transparente para la página de equipo */
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    border: none; 
+    color: white;
+}
+
+.testimonials {
+    background: transparent;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    color: white;
+}
+.testimonial-text {
+    background: #317090; 
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem; 
+    color: #ffffff;
+    font-style: italic; 
+}
+
+.testimonial p {
+    color: hsl(0, 0%, 100%); 
+}
+.contact {
+    background: rgba(164, 70, 70, 0.8); /* Fondo blanco con opacidad */
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    border: none; /* Eliminar borde de color */
+    color: white;
+}
+
+.services h2, .team h2, .testimonials h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-item, .team-member, .testimonial {
+    background: transparent;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i, .team-member img {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-member img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.team-member h3 {
+    margin: 0.5rem 0;
+}
+
+.team-member p {
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
